@@ -1,0 +1,24 @@
+.contactus-container{
+
+    width: 100%;
+    height: 100%;
+    background-color: #f2fdfb;
+}
+
+@media screen and (min-width : 992px) {
+
+
+    .contactus-container .contactus-section{
+
+        display: flex;
+        column-gap: 50px;
+
+    }
+
+    .contactus-section .form-container .form-center{
+
+        row-gap: 50px;
+    }
+
+    
+}

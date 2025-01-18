@@ -1,0 +1,33 @@
+.imgCard-container{
+
+   
+    aspect-ratio: 355/300 ;
+    overflow: hidden;
+}
+
+.imgCard-container img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 992px) {
+
+    .imgCard-container{
+
+        aspect-ratio:625 / 550;
+        flex: 0 0 calc(50% - 30px);
+    }
+
+    .imgCard-container img{
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+}

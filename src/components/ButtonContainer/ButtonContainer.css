@@ -1,0 +1,24 @@
+.button-container a{
+
+    width: 200px;
+    min-height: 45px;
+    background-color: #fff;
+    color: #3777aa;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.button-container:hover{
+
+    opacity: 0.9;
+}

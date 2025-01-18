@@ -1,0 +1,21 @@
+.featured-course-container{
+
+    width: 100%;
+    height: 100%;
+    background-color: #f2fdfb;
+}
+
+.featured-course-container .button-container a{
+
+    background-color: #3377aa;
+    color: #fff;
+    
+}
+
+.featured-course-section{
+
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+

@@ -1,0 +1,49 @@
+.notfound-container{
+
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.notfound-center .img-container{
+
+    aspect-ratio: 355/350;
+    overflow: hidden;
+}
+
+.notfound-center .img-container img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.notfound-center .button-container a{
+
+    background-color: #3377aa;
+    color: #fff;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 992px) {
+
+
+    .notfound-center .img-container{
+
+        aspect-ratio: 1250/437;
+        overflow: hidden;
+        
+    }
+    
+    .notfound-center .img-container img{
+    
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    
+}
+

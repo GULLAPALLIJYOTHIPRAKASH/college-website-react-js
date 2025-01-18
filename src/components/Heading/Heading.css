@@ -1,0 +1,19 @@
+.heading-section .title{
+
+    color: #3777aa;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.heading-section .underline{
+
+    width: 100px;
+    min-height: 5px;
+    background-color: #3777aa;
+    margin-left: auto;
+    margin-right: auto;
+}

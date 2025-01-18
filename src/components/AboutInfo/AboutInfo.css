@@ -1,0 +1,27 @@
+
+
+.about-info{
+
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    overflow: hidden;
+}
+
+.about-info p{
+
+    font-size: 18px;
+    color: rgb(36, 36, 36);
+    line-height: 25px;
+    text-align: justify;
+}
+
+@media screen and (min-width: 992px) {
+
+    .about-text-content{
+
+        flex: 0 0  calc(50% - 30px) ;
+    }
+    
+}
